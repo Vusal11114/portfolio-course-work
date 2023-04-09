@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 
+:root {
+    --span-orange:#FF8A56;
+    --gray-color:#666;
+
+}
+
+
 a {
     text-decoration: none;
 }
@@ -40,4 +47,66 @@ body {
 .nav-links {
     display: none;
 }
+
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.introduction h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    min-width: 600px;
+}
+.introduction h1 span {
+    color: #FF8A56;
+    margin-top: 30px;
+}
+
+.introduction .intro-left-side {
+    padding-top: 134px;
+    padding-left: 113px;
+
+}
+
+.intro-right-side {
+
+    padding-top: 70px;
+    min-width: 400px;
+}
+.intro-right-side img {
+    width: 100%;
+
+}
+
+.intro-left-side {
+   min-width: 360px;
+}
+
+
+.intro-left-side p {
+    color:var(--gray-color);
+    margin-top: 34px;
+}
+.book-a-call {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+
+.book-a-call a:first-child {
+    color: white;
+    background-color: #222;
+    width: 151px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
